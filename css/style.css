@@ -4,6 +4,9 @@ body{
 *{
 	margin: 0;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 0;
 }
 
 header{
@@ -174,4 +177,14 @@ section p{
 	    font-size: 14px;
 	    padding: 25px 0px;
 	    color: #00000061;
+}
+@media(max-width: 1200px){
+	.container{
+		width:1000px
+	}
+}
+@media(max-width: 1000px){
+	.container{
+		width:600px
+	}
 }
